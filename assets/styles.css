@@ -1,0 +1,131 @@
+body{
+  background-color: rgb(144, 140, 140);
+}
+body *{
+  font-family: Ubuntu;
+}
+h1,h2,h3,h4,h5,h6, p, label, span{
+  font-weight: 100;
+  /* padding: 20px; */
+  margin: 0;
+  font-size: 20px;
+  color: #fff;
+}
+a, a:hover, a:visited{
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.wrapper{
+  max-width:960px;
+  margin: 0 auto;
+}
+div.wrapper  > h1{
+  text-align:center;
+  margin:50px auto;
+  font-size:2.4rem;
+}
+.wrapper nav{
+  width:100%;
+  display:flex;
+  /* grid-template-columns:1fr 1fr; */
+  justify-content:space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+  min-width: 100px;
+}
+nav li{
+  display: block;
+}
+nav button{
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  font-size: 1em;
+}
+.cards{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+.card{
+  position: relative;
+  padding: 10px;
+  border: 1px solid #fff;
+  position: relative;
+  padding-bottom: 40px;
+}
+.card h2{
+  font-size: 1.2rem;
+}
+.card a{
+  color: rgb(6, 6, 34);
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+.article-detail img {
+  width: 300px;
+  height: 300px;
+}
+.article-detail h2,.article-detail p{
+  font-size: 20px;
+  padding: 5px;
+}
+p.author{
+  text-align: right;
+  padding: 10px;
+  position: absolute;
+  font-size: 13px;
+  text-transform: uppercase;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  color: red;
+}
+.site-form{
+  margin-top: 60px;
+  border: 1px solid #fff;
+  padding: 20px;
+}
+.site-form imput, .site-form textarea{
+  display: block;
+  margin: 20px 0 0 0;
+  padding: 10px;
+}
+.highlight{
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+.helptext, .helptext ul{
+  margin: 0 auto 20px;
+  color: #fff;
+  font-size: .9em;
+  display: block;
+}
+.errorlist li{
+  padding: 10px;
+  list-style-type: none;
+  border: 1px solid #ff0000;
+  color: #ff0000;;
+  margin: 10px 0;
+}
+.errorlist{
+  padding: 0px;
+}
+.site-form input[type="submit"]{
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+  cursor: pointer;
+}
